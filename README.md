@@ -1,18 +1,21 @@
 # MXNet on the iPhone
 
-These are example projects running mxnet prediction on the iPhone.
-- ``mnist-ios`` runs a example app which can detect single handwritten digits
-- ``predict-ios`` contains an imagenet/cifar10 trained model to classify images
+This is an example project running a binarized neural network on iOS. It can detect single handwritten digits.
+
+## Requirements
+
+- OpenCV framework (e.g. from [here](https://github.com/Fl0p/OpenCV-iOS))
+- model trained on mnist (pre-trained binarized version included)
 
 ## Usage
 
-The xcode projects need a modified, amalgamated mxnet library. Each project contains an ``MXNet/amalgamate_mxnet.sh`` script. These need to be run once (and after each change in the mxnet library). Then use xcode to ``build`` away!
+Use xcode to ``build`` the app and try it on your phone!
 
 ## What it does
 
 Under the hood, we need the amalgamated MXNet source, the c predict headers, a trained and saved model from mxnet and set some additional environment variables in xcode.
 
-The script ``MXNet/amalgamate_mxnet.sh`` will amalgamate mxnet and perform the changes necessary for ios as described in the amalgamation readme file.
+The mxnet script ``amalgamate_mxnet.sh`` will amalgamate mxnet and perform the changes necessary for ios as described in the amalgamation readme file.
 
 The xcode project already contains the preprocessor settings required to build mxnet for ios:
 - ``"MXNET_PREDICT_ONLY=1"``
