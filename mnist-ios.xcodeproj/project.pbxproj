@@ -11,7 +11,6 @@
 		472E1CC61C545B31005E3FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E1CC51C545B31005E3FE0 /* AppDelegate.m */; };
 		472E1CC91C545B31005E3FE0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 472E1CC81C545B31005E3FE0 /* ViewController.mm */; };
 		472E1CCC1C545B31005E3FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472E1CCA1C545B31005E3FE0 /* Main.storyboard */; };
-		472E1CCE1C545B31005E3FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472E1CCD1C545B31005E3FE0 /* Assets.xcassets */; };
 		472E1CD11C545B31005E3FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472E1CCF1C545B31005E3FE0 /* LaunchScreen.storyboard */; };
 		472E1CDB1C545B53005E3FE0 /* mxnet_predict-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 472E1CD91C545B53005E3FE0 /* mxnet_predict-all.cc */; };
 		472E1CDD1C545B9A005E3FE0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E1CDC1C545B9A005E3FE0 /* Accelerate.framework */; };
@@ -22,7 +21,6 @@
 		C8D9F5621E718E27005DD292 /* LICENSE_MXNet in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F5611E718E27005DD292 /* LICENSE_MXNet */; };
 		C8D9F5671E719578005DD292 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D9F5661E719578005DD292 /* AVFoundation.framework */; };
 		C8D9F5691E7197BF005DD292 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D9F5681E7197BF005DD292 /* CoreMedia.framework */; };
-		C8FA00321E7024500063DD50 /* amalgamate_mxnet.sh in Resources */ = {isa = PBXBuildFile; fileRef = C8FA00311E7024500063DD50 /* amalgamate_mxnet.sh */; };
 		C8FD90481EC0B48D00862215 /* binarized_binary-mnist_32-0001.params in Resources */ = {isa = PBXBuildFile; fileRef = C8FD90441EC0B48D00862215 /* binarized_binary-mnist_32-0001.params */; };
 		C8FD90491EC0B48D00862215 /* binarized_binary-mnist_32-symbol.json in Resources */ = {isa = PBXBuildFile; fileRef = C8FD90451EC0B48D00862215 /* binarized_binary-mnist_32-symbol.json */; };
 		C8FD904A1EC0B48D00862215 /* binarized_binary-mnist_64-0001.params in Resources */ = {isa = PBXBuildFile; fileRef = C8FD90461EC0B48D00862215 /* binarized_binary-mnist_64-0001.params */; };
@@ -49,7 +47,6 @@
 		472E1CC71C545B31005E3FE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		472E1CC81C545B31005E3FE0 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		472E1CCB1C545B31005E3FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		472E1CCD1C545B31005E3FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472E1CD01C545B31005E3FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		472E1CD21C545B31005E3FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		472E1CD91C545B53005E3FE0 /* mxnet_predict-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mxnet_predict-all.cc"; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		C8D9F5611E718E27005DD292 /* LICENSE_MXNet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_MXNet; sourceTree = "<group>"; };
 		C8D9F5661E719578005DD292 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C8D9F5681E7197BF005DD292 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C8FA00311E7024500063DD50 /* amalgamate_mxnet.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = amalgamate_mxnet.sh; sourceTree = "<group>"; };
 		C8FD90441EC0B48D00862215 /* binarized_binary-mnist_32-0001.params */ = {isa = PBXFileReference; lastKnownFileType = file; name = "binarized_binary-mnist_32-0001.params"; path = "BinaryMNIST/binarized_binary-mnist_32-0001.params"; sourceTree = "<group>"; };
 		C8FD90451EC0B48D00862215 /* binarized_binary-mnist_32-symbol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "binarized_binary-mnist_32-symbol.json"; path = "BinaryMNIST/binarized_binary-mnist_32-symbol.json"; sourceTree = "<group>"; };
 		C8FD90461EC0B48D00862215 /* binarized_binary-mnist_64-0001.params */ = {isa = PBXFileReference; lastKnownFileType = file; name = "binarized_binary-mnist_64-0001.params"; path = "BinaryMNIST/binarized_binary-mnist_64-0001.params"; sourceTree = "<group>"; };
@@ -115,7 +111,6 @@
 				472E1CC71C545B31005E3FE0 /* ViewController.h */,
 				472E1CC81C545B31005E3FE0 /* ViewController.mm */,
 				472E1CCA1C545B31005E3FE0 /* Main.storyboard */,
-				472E1CCD1C545B31005E3FE0 /* Assets.xcassets */,
 				472E1CCF1C545B31005E3FE0 /* LaunchScreen.storyboard */,
 				472E1CD21C545B31005E3FE0 /* Info.plist */,
 				472E1CC11C545B31005E3FE0 /* Supporting Files */,
@@ -135,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				C8D9F5611E718E27005DD292 /* LICENSE_MXNet */,
-				C8FA00311E7024500063DD50 /* amalgamate_mxnet.sh */,
 				472E1CD91C545B53005E3FE0 /* mxnet_predict-all.cc */,
 				472E1CDA1C545B53005E3FE0 /* c_predict_api.h */,
 			);
@@ -230,10 +224,8 @@
 				C8FD904A1EC0B48D00862215 /* binarized_binary-mnist_64-0001.params in Resources */,
 				C8D9F5621E718E27005DD292 /* LICENSE_MXNet in Resources */,
 				C8FD90491EC0B48D00862215 /* binarized_binary-mnist_32-symbol.json in Resources */,
-				472E1CCE1C545B31005E3FE0 /* Assets.xcassets in Resources */,
 				C8FD904B1EC0B48D00862215 /* binarized_binary-mnist_64-symbol.json in Resources */,
 				472E1CCC1C545B31005E3FE0 /* Main.storyboard in Resources */,
-				C8FA00321E7024500063DD50 /* amalgamate_mxnet.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
