@@ -9,7 +9,7 @@ This is an example project running a binarized neural network on iOS. It can det
 
 ## Usage
 
-Use xcode to ``build`` the app and try it on your phone!
+Add the OpenCV framework to the xcode project and then ``build`` the app and try it on your phone!
 
 ## What it does
 
